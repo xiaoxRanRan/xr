@@ -1,0 +1,74 @@
+﻿"Phrases"
+{
+	"disabled"
+	{
+		"en"		"[{orange}!{default}] Server doesn't allow players to use {orange}cheer{default} or {orange}jeer{default} command."
+		"chi"		"[{orange}!{default}] 服务器不允许玩家使用 {orange}cheer{default} 或 {orange}jeer{default} 指令"
+	}
+
+	"cheer_disabled"
+	{
+		"en"		"[{orange}!{default}] Server doesn't allow players to use {orange}cheer{default} command."
+		"chi"		"[{orange}!{default}] 服务器不允许玩家使用 {orange}cheer{default} 指令"
+	}
+
+	"jeer_disabled"
+	{
+		"en"		"[{orange}!{default}] Server doesn't allow players to use {orange}jeer command."
+		"chi"		"[{orange}!{default}] 服务器不允许玩家使用 {orange}jeer{default} 指令"
+	}
+
+	"Recharging"
+	{
+		"en"		"[{orange}!{default}] You have to wait for a while to use this command again!"
+		"chi"		"[{orange}!{default}] 你必须等一会才能使用这个指令!"
+	}
+
+	"cheer_interval_limited"
+	{
+		"#format"	"{1:i}"		// 1: time left to cheer
+		"en"		"[{orange}!{default}] You have to wait at least ({lightgreen}{1}{default}s) to command next {orange}cheer{default}."
+		"chi"		"[{orange}!{default}] 你必须等待至少 ({lightgreen}{1}{default}秒) 来进行下一次 {orange}cheer{default}."
+	}
+
+	"jeer_interval_limited"
+	{
+		"#format"	"{1:i}"		// 1: time left to jeer
+		"en"		"[{orange}!{default}] You have to wait at least ({lightgreen}{1}{default}s) to command next {orange}jeer{default}."
+		"chi"		"[{orange}!{default}] 你必须等待至少 ({lightgreen}{1}{default}秒) 来进行下一次 {orange}jeer{default}."
+	}
+
+	"round_is_live"
+	{
+		"en"		"[{orange}!{default}] Can not use Cheers or Jeers while round is live."
+		"chi"		"[{orange}!{default}] 回合开始时不允许使用Cheers或Jeers."
+	}
+
+	"over_jeer_limit"
+	{
+		"#format"	"{1:i}"		// 1: times you can jeer
+		"en"		"[{orange}!{default}] You have already reached your maximum number of {orange}jeers{default} for this round. ({lightgreen}{1}{default} times)"
+		"chi"		"[{orange}!{default}] 你已经达到了本轮最大 {orange}jeer{default} 次数限制. ({lightgreen}{1}{default} 次)"
+	}
+
+	"over_cheer_limit"
+	{
+		"#format"	"{1:i}"		// 1: times you can cheer
+		"en"		"[{orange}!{default}] You have already reached your maximum number of {orange}cheers{default} for this round. ({lightgreen}{1}{default} times)."
+		"chi"		"[{orange}!{default}] 你已经达到本轮最大 {orange}cheer{default} 次数限制. ({lightgreen}{1}{default} 次)."
+	}
+
+	"Cheered!!!"
+	{
+		"#format"	"{1:N}"		// 1: client
+		"en"		"{teamcolor}{1}{default}: {green}Cheered!!!"
+		"chi"		"{teamcolor}{1}{default}: {green}Cheered!!!"
+	}
+
+	"Jeered!!!"
+	{
+		"#format"	"{1:N}"		// 1: client
+		"en"		"{teamcolor}{1}{default}: {green}Jeered!!!"
+		"chi"		"{teamcolor}{1}{default}: {green}Jeered!!!"
+	}
+}

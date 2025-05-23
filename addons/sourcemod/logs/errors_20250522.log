@@ -1,0 +1,1909 @@
+L 05/22/2025 - 10:54:07: SourceMod error session started
+L 05/22/2025 - 10:54:07: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 10:54:07: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 10:54:07: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 10:54:07: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 10:54:14: Error log file session closed.
+L 05/22/2025 - 10:55:27: SourceMod error session started
+L 05/22/2025 - 10:55:27: Info (map "c10m1_caves") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 10:55:27: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 10:55:27: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 10:55:27: [SM] Call stack trace:
+L 05/22/2025 - 10:55:27: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 10:55:27: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 10:57:13: Error log file session closed.
+L 05/22/2025 - 10:57:15: SourceMod error session started
+L 05/22/2025 - 10:57:15: Info (map "c5m2_park") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 10:57:15: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 10:57:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 10:57:15: [SM] Call stack trace:
+L 05/22/2025 - 10:57:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 10:57:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 10:58:51: Error log file session closed.
+L 05/22/2025 - 10:58:53: SourceMod error session started
+L 05/22/2025 - 10:58:53: Info (map "c1m3_mall") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 10:58:53: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 10:58:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 10:58:53: [SM] Call stack trace:
+L 05/22/2025 - 10:58:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 10:58:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:00:16: Error log file session closed.
+L 05/22/2025 - 11:00:18: SourceMod error session started
+L 05/22/2025 - 11:00:18: Info (map "c12m4_barn") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:00:18: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:00:18: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:00:18: [SM] Call stack trace:
+L 05/22/2025 - 11:00:18: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:00:18: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:05:06: Error log file session closed.
+L 05/22/2025 - 11:05:08: SourceMod error session started
+L 05/22/2025 - 11:05:08: Info (map "c11m5_runway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:05:08: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:05:08: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:05:08: [SM] Call stack trace:
+L 05/22/2025 - 11:05:08: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:05:08: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:10:01: [SM] Exception reported: Native is not bound
+L 05/22/2025 - 11:10:01: [SM] Blaming: another/l4d_bot_healing.smx
+L 05/22/2025 - 11:10:01: [SM] Call stack trace:
+L 05/22/2025 - 11:10:01: [SM]   [0] BehaviorAction.OnStartPost.set
+L 05/22/2025 - 11:10:01: [SM]   [1] Line 284, C:\Users\apples1949\Desktop\l4dplugins\1.11\l4d_bot_healing.sp::OnActionCreated
+L 05/22/2025 - 11:10:01: [SM] Exception reported: Native is not bound
+L 05/22/2025 - 11:10:01: [SM] Blaming: another/l4d_bot_healing.smx
+L 05/22/2025 - 11:10:01: [SM] Call stack trace:
+L 05/22/2025 - 11:10:01: [SM]   [0] BehaviorAction.OnStartPost.set
+L 05/22/2025 - 11:10:01: [SM]   [1] Line 284, C:\Users\apples1949\Desktop\l4dplugins\1.11\l4d_bot_healing.sp::OnActionCreated
+L 05/22/2025 - 11:10:18: Error log file session closed.
+L 05/22/2025 - 11:10:21: SourceMod error session started
+L 05/22/2025 - 11:10:21: Info (map "c6m1_riverbank") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:10:21: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:10:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:10:21: [SM] Call stack trace:
+L 05/22/2025 - 11:10:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:10:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:10:22: Error log file session closed.
+L 05/22/2025 - 11:10:38: SourceMod error session started
+L 05/22/2025 - 11:10:38: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:10:38: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 11:10:38: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 11:10:38: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 11:10:44: Error log file session closed.
+L 05/22/2025 - 11:54:22: SourceMod error session started
+L 05/22/2025 - 11:54:22: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:54:22: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 11:54:22: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 11:54:22: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 11:54:29: Error log file session closed.
+L 05/22/2025 - 11:55:35: SourceMod error session started
+L 05/22/2025 - 11:55:35: Info (map "c3m1_plankcountry") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:55:35: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:55:35: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:55:35: [SM] Call stack trace:
+L 05/22/2025 - 11:55:35: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:55:35: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:57:07: Error log file session closed.
+L 05/22/2025 - 11:57:09: SourceMod error session started
+L 05/22/2025 - 11:57:09: Info (map "c8m2_subway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:57:09: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:57:09: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:57:09: [SM] Call stack trace:
+L 05/22/2025 - 11:57:09: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:57:09: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 11:58:57: Error log file session closed.
+L 05/22/2025 - 11:59:00: SourceMod error session started
+L 05/22/2025 - 11:59:00: Info (map "c3m3_shantytown") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 11:59:00: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 11:59:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 11:59:00: [SM] Call stack trace:
+L 05/22/2025 - 11:59:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 11:59:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:00:08: Error log file session closed.
+L 05/22/2025 - 12:00:10: SourceMod error session started
+L 05/22/2025 - 12:00:10: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:00:10: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:00:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:00:10: [SM] Call stack trace:
+L 05/22/2025 - 12:00:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:00:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:01:26: Error log file session closed.
+L 05/22/2025 - 12:01:27: SourceMod error session started
+L 05/22/2025 - 12:01:27: Info (map "c1m4_atrium") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:01:27: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:01:27: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:01:27: [SM] Call stack trace:
+L 05/22/2025 - 12:01:27: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:01:27: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:02:56: Error log file session closed.
+L 05/22/2025 - 12:02:57: SourceMod error session started
+L 05/22/2025 - 12:02:57: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:02:57: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:02:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:02:57: [SM] Call stack trace:
+L 05/22/2025 - 12:02:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:02:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:02:58: Error log file session closed.
+L 05/22/2025 - 12:03:14: SourceMod error session started
+L 05/22/2025 - 12:03:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:03:14: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 12:03:14: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 12:03:14: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 12:03:20: Error log file session closed.
+L 05/22/2025 - 12:11:18: SourceMod error session started
+L 05/22/2025 - 12:11:18: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:11:18: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 12:11:18: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 12:11:18: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 12:11:25: Error log file session closed.
+L 05/22/2025 - 12:13:59: SourceMod error session started
+L 05/22/2025 - 12:13:59: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:13:59: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 12:13:59: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 12:13:59: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 12:14:06: Error log file session closed.
+L 05/22/2025 - 12:15:38: SourceMod error session started
+L 05/22/2025 - 12:15:38: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:15:38: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:15:38: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:15:38: [SM] Call stack trace:
+L 05/22/2025 - 12:15:38: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:15:38: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:16:50: Error log file session closed.
+L 05/22/2025 - 12:16:52: SourceMod error session started
+L 05/22/2025 - 12:16:52: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:16:52: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:16:52: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:16:52: [SM] Call stack trace:
+L 05/22/2025 - 12:16:52: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:16:52: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:17:56: Error log file session closed.
+L 05/22/2025 - 12:17:58: SourceMod error session started
+L 05/22/2025 - 12:17:58: Info (map "c12m3_bridge") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:17:58: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:17:58: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:17:58: [SM] Call stack trace:
+L 05/22/2025 - 12:17:58: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:17:58: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:19:07: Error log file session closed.
+L 05/22/2025 - 12:19:08: SourceMod error session started
+L 05/22/2025 - 12:19:08: Info (map "c10m4_mainstreet") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:19:08: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:19:08: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:19:08: [SM] Call stack trace:
+L 05/22/2025 - 12:19:08: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:19:08: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:20:12: Error log file session closed.
+L 05/22/2025 - 12:20:14: SourceMod error session started
+L 05/22/2025 - 12:20:14: Info (map "c10m5_houseboat") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:20:14: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:20:14: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:20:14: [SM] Call stack trace:
+L 05/22/2025 - 12:20:14: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:20:14: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:21:51: Error log file session closed.
+L 05/22/2025 - 12:21:52: SourceMod error session started
+L 05/22/2025 - 12:21:52: Info (map "c11m1_greenhouse") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:21:52: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 12:21:52: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 12:21:52: [SM] Call stack trace:
+L 05/22/2025 - 12:21:52: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 12:21:52: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 12:21:54: Error log file session closed.
+L 05/22/2025 - 12:22:10: SourceMod error session started
+L 05/22/2025 - 12:22:10: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 12:22:10: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 12:22:10: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 12:22:10: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 12:22:16: Error log file session closed.
+L 05/22/2025 - 14:16:55: SourceMod error session started
+L 05/22/2025 - 14:16:55: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:16:55: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 14:16:55: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 14:16:55: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 14:17:02: Error log file session closed.
+L 05/22/2025 - 14:35:53: SourceMod error session started
+L 05/22/2025 - 14:35:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:35:53: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 14:35:53: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 14:35:53: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 14:35:59: Error log file session closed.
+L 05/22/2025 - 14:37:49: SourceMod error session started
+L 05/22/2025 - 14:37:49: Info (map "c6m1_riverbank") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:37:49: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:37:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:37:49: [SM] Call stack trace:
+L 05/22/2025 - 14:37:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:37:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:39:17: Error log file session closed.
+L 05/22/2025 - 14:39:19: SourceMod error session started
+L 05/22/2025 - 14:39:19: Info (map "c1m2_streets") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:39:19: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:39:19: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:39:19: [SM] Call stack trace:
+L 05/22/2025 - 14:39:19: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:39:19: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:40:55: Error log file session closed.
+L 05/22/2025 - 14:40:56: SourceMod error session started
+L 05/22/2025 - 14:40:56: Info (map "c5m3_cemetery") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:40:56: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:40:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:40:56: [SM] Call stack trace:
+L 05/22/2025 - 14:40:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:40:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:42:09: Error log file session closed.
+L 05/22/2025 - 14:42:10: SourceMod error session started
+L 05/22/2025 - 14:42:10: Info (map "c4m4_milltown_b") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:42:10: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:42:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:42:10: [SM] Call stack trace:
+L 05/22/2025 - 14:42:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:42:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:43:27: Error log file session closed.
+L 05/22/2025 - 14:43:29: SourceMod error session started
+L 05/22/2025 - 14:43:29: Info (map "c3m4_plantation") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:43:29: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:43:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:43:29: [SM] Call stack trace:
+L 05/22/2025 - 14:43:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:43:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:44:37: Error log file session closed.
+L 05/22/2025 - 14:44:39: SourceMod error session started
+L 05/22/2025 - 14:44:39: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:44:39: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:44:39: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:44:39: [SM] Call stack trace:
+L 05/22/2025 - 14:44:39: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:44:39: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:44:40: [another/l4d2_mixmap.smx] Map order array is empty in Timed_GiveThemTimeToReadTheMapList. Aborting map transition.
+L 05/22/2025 - 14:45:29: Error log file session closed.
+L 05/22/2025 - 14:45:30: SourceMod error session started
+L 05/22/2025 - 14:45:30: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:45:30: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:45:30: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:45:30: [SM] Call stack trace:
+L 05/22/2025 - 14:45:30: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:45:30: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:45:53: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 14:45:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:45:53: [SM] Call stack trace:
+L 05/22/2025 - 14:45:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:45:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:46:05: Error log file session closed.
+L 05/22/2025 - 14:46:07: SourceMod error session started
+L 05/22/2025 - 14:46:07: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:46:07: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:46:07: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:46:07: [SM] Call stack trace:
+L 05/22/2025 - 14:46:07: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:46:07: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:46:31: Error log file session closed.
+L 05/22/2025 - 14:46:33: SourceMod error session started
+L 05/22/2025 - 14:46:33: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:46:33: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:46:33: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:46:33: [SM] Call stack trace:
+L 05/22/2025 - 14:46:33: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:46:33: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:46:49: Error log file session closed.
+L 05/22/2025 - 14:46:50: SourceMod error session started
+L 05/22/2025 - 14:46:50: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:46:50: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:46:50: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:46:50: [SM] Call stack trace:
+L 05/22/2025 - 14:46:50: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:46:50: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:47:30: Error log file session closed.
+L 05/22/2025 - 14:47:31: SourceMod error session started
+L 05/22/2025 - 14:47:31: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:47:31: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:47:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:47:31: [SM] Call stack trace:
+L 05/22/2025 - 14:47:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:47:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:47:48: Error log file session closed.
+L 05/22/2025 - 14:47:50: SourceMod error session started
+L 05/22/2025 - 14:47:50: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:47:50: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:47:50: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:47:50: [SM] Call stack trace:
+L 05/22/2025 - 14:47:50: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:47:50: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:48:44: Error log file session closed.
+L 05/22/2025 - 14:48:46: SourceMod error session started
+L 05/22/2025 - 14:48:46: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:48:46: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:48:46: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:48:46: [SM] Call stack trace:
+L 05/22/2025 - 14:48:46: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:48:46: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:51:13: Error log file session closed.
+L 05/22/2025 - 14:51:15: SourceMod error session started
+L 05/22/2025 - 14:51:15: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:51:15: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:51:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:51:15: [SM] Call stack trace:
+L 05/22/2025 - 14:51:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:51:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:52:36: Error log file session closed.
+L 05/22/2025 - 14:52:38: SourceMod error session started
+L 05/22/2025 - 14:52:38: Info (map "c4m1_milltown_a") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:52:38: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:52:38: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:52:38: [SM] Call stack trace:
+L 05/22/2025 - 14:52:38: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:52:38: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 14:53:01: Error log file session closed.
+L 05/22/2025 - 14:53:03: SourceMod error session started
+L 05/22/2025 - 14:53:03: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 14:53:03: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 14:53:03: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 14:53:03: [SM] Call stack trace:
+L 05/22/2025 - 14:53:03: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 14:53:03: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:21:48: SourceMod error session started
+L 05/22/2025 - 15:21:48: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:21:48: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 15:21:48: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 15:21:48: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 15:21:54: Error log file session closed.
+L 05/22/2025 - 15:23:14: SourceMod error session started
+L 05/22/2025 - 15:23:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:23:14: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 15:23:14: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 15:23:14: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 15:23:28: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 15:23:28: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:23:28: [SM] Call stack trace:
+L 05/22/2025 - 15:23:28: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:23:28: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:23:28: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:23:28: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:23:28: [SM] Call stack trace:
+L 05/22/2025 - 15:23:28: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:23:28: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:23:29: Error log file session closed.
+L 05/22/2025 - 15:23:31: SourceMod error session started
+L 05/22/2025 - 15:23:31: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:23:31: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:23:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:23:31: [SM] Call stack trace:
+L 05/22/2025 - 15:23:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:23:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:23:31: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 15:23:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:23:31: [SM] Call stack trace:
+L 05/22/2025 - 15:23:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:23:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:23:31: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:23:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:23:31: [SM] Call stack trace:
+L 05/22/2025 - 15:23:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:23:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:24:57: Error log file session closed.
+L 05/22/2025 - 15:24:59: SourceMod error session started
+L 05/22/2025 - 15:24:59: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:24:59: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:24:59: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:24:59: [SM] Call stack trace:
+L 05/22/2025 - 15:24:59: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:24:59: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:25:20: Error log file session closed.
+L 05/22/2025 - 15:25:22: SourceMod error session started
+L 05/22/2025 - 15:25:22: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:25:22: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:25:22: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:25:22: [SM] Call stack trace:
+L 05/22/2025 - 15:25:22: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:25:22: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:25:54: Error log file session closed.
+L 05/22/2025 - 15:25:56: SourceMod error session started
+L 05/22/2025 - 15:25:56: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:25:56: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:25:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:25:56: [SM] Call stack trace:
+L 05/22/2025 - 15:25:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:25:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:26:12: Error log file session closed.
+L 05/22/2025 - 15:26:14: SourceMod error session started
+L 05/22/2025 - 15:26:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:26:14: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:26:14: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:26:14: [SM] Call stack trace:
+L 05/22/2025 - 15:26:14: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:26:14: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:26:33: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:26:33: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:26:33: [SM] Call stack trace:
+L 05/22/2025 - 15:26:33: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:26:33: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:27:45: Error log file session closed.
+L 05/22/2025 - 15:27:47: SourceMod error session started
+L 05/22/2025 - 15:27:47: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:27:47: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 15:27:47: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:27:47: [SM] Call stack trace:
+L 05/22/2025 - 15:27:47: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:27:47: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:28:21: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:28:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:28:21: [SM] Call stack trace:
+L 05/22/2025 - 15:28:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:28:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:30:10: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:30:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:30:10: [SM] Call stack trace:
+L 05/22/2025 - 15:30:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:30:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:30:48: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:30:48: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:30:48: [SM] Call stack trace:
+L 05/22/2025 - 15:30:48: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:30:48: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:34:40: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:34:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:34:40: [SM] Call stack trace:
+L 05/22/2025 - 15:34:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:34:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:34:42: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 15:34:42: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:34:42: [SM] Call stack trace:
+L 05/22/2025 - 15:34:42: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:34:42: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:35:18: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 15:35:18: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 15:35:18: [SM] Call stack trace:
+L 05/22/2025 - 15:35:18: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 15:35:18: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 15:35:41: SourceMod error session started
+L 05/22/2025 - 15:35:41: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 15:35:41: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 15:35:41: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 15:35:41: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 15:35:48: Error log file session closed.
+L 05/22/2025 - 16:02:47: SourceMod error session started
+L 05/22/2025 - 16:02:47: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:02:47: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:02:47: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:02:47: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:02:53: Error log file session closed.
+L 05/22/2025 - 16:07:26: SourceMod error session started
+L 05/22/2025 - 16:07:26: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:07:26: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:07:26: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:07:26: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:07:32: Error log file session closed.
+L 05/22/2025 - 16:10:55: SourceMod error session started
+L 05/22/2025 - 16:10:55: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:10:55: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:10:55: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:10:55: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:11:01: Error log file session closed.
+L 05/22/2025 - 16:14:55: SourceMod error session started
+L 05/22/2025 - 16:14:55: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:14:55: [SM] Unable to load plugin "another/l4d2_player_status.smx": Native "GetWitchNumber" was not found
+L 05/22/2025 - 16:14:55: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:14:55: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:14:55: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:15:01: Error log file session closed.
+L 05/22/2025 - 16:19:47: SourceMod error session started
+L 05/22/2025 - 16:19:47: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:19:47: [SM] Unable to load plugin "another/l4d2_player_status.smx": Native "GetWitchNumber" was not found
+L 05/22/2025 - 16:19:47: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:19:47: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:19:47: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:19:53: Error log file session closed.
+L 05/22/2025 - 16:22:29: SourceMod error session started
+L 05/22/2025 - 16:22:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:22:29: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:22:29: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:22:29: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:22:35: Error log file session closed.
+L 05/22/2025 - 16:25:01: SourceMod error session started
+L 05/22/2025 - 16:25:01: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:25:01: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:25:01: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:25:01: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:25:07: Error log file session closed.
+L 05/22/2025 - 16:29:02: SourceMod error session started
+L 05/22/2025 - 16:29:02: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:29:02: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:29:02: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:29:02: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:29:08: Error log file session closed.
+L 05/22/2025 - 16:29:53: SourceMod error session started
+L 05/22/2025 - 16:29:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:29:53: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:29:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:29:53: [SM] Call stack trace:
+L 05/22/2025 - 16:29:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:29:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:31:09: Error log file session closed.
+L 05/22/2025 - 16:31:10: SourceMod error session started
+L 05/22/2025 - 16:31:10: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:31:10: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:31:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:31:10: [SM] Call stack trace:
+L 05/22/2025 - 16:31:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:31:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:34:48: SourceMod error session started
+L 05/22/2025 - 16:34:48: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:34:48: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:34:48: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:34:48: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:34:54: Error log file session closed.
+L 05/22/2025 - 16:35:08: SourceMod error session started
+L 05/22/2025 - 16:35:08: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:35:08: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:35:08: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:35:08: [SM] Call stack trace:
+L 05/22/2025 - 16:35:08: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:35:08: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:35:35: Error log file session closed.
+L 05/22/2025 - 16:35:37: SourceMod error session started
+L 05/22/2025 - 16:35:37: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:35:37: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:35:37: [SM] Call stack trace:
+L 05/22/2025 - 16:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:37:03: Error log file session closed.
+L 05/22/2025 - 16:37:05: SourceMod error session started
+L 05/22/2025 - 16:37:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:37:05: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:37:05: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:37:05: [SM] Call stack trace:
+L 05/22/2025 - 16:37:05: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:37:05: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:48:58: SourceMod error session started
+L 05/22/2025 - 16:48:58: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:48:58: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 16:48:58: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 16:48:58: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 16:49:05: Error log file session closed.
+L 05/22/2025 - 16:49:53: SourceMod error session started
+L 05/22/2025 - 16:49:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:49:53: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:49:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:49:53: [SM] Call stack trace:
+L 05/22/2025 - 16:49:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:49:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 16:51:04: Error log file session closed.
+L 05/22/2025 - 16:51:06: SourceMod error session started
+L 05/22/2025 - 16:51:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 16:51:06: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 16:51:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 16:51:06: [SM] Call stack trace:
+L 05/22/2025 - 16:51:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 16:51:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:16:02: SourceMod error session started
+L 05/22/2025 - 17:16:02: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:16:02: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 17:16:02: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 17:16:02: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 17:16:08: Error log file session closed.
+L 05/22/2025 - 17:17:04: SourceMod error session started
+L 05/22/2025 - 17:17:04: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:17:04: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:17:04: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:17:04: [SM] Call stack trace:
+L 05/22/2025 - 17:17:04: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:17:04: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:18:28: Error log file session closed.
+L 05/22/2025 - 17:18:30: SourceMod error session started
+L 05/22/2025 - 17:18:30: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:18:30: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:18:30: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:18:30: [SM] Call stack trace:
+L 05/22/2025 - 17:18:30: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:18:30: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:19:20: SourceMod error session started
+L 05/22/2025 - 17:19:20: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:19:20: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 17:19:20: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 17:19:20: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 17:19:27: Error log file session closed.
+L 05/22/2025 - 17:20:30: SourceMod error session started
+L 05/22/2025 - 17:20:30: Info (map "c6m1_riverbank") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:20:30: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:20:30: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:20:30: [SM] Call stack trace:
+L 05/22/2025 - 17:20:30: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:20:30: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:21:55: Error log file session closed.
+L 05/22/2025 - 17:21:57: SourceMod error session started
+L 05/22/2025 - 17:21:57: Info (map "c6m2_bedlam") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:21:57: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:21:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:21:57: [SM] Call stack trace:
+L 05/22/2025 - 17:21:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:21:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:22:56: Error log file session closed.
+L 05/22/2025 - 17:22:57: SourceMod error session started
+L 05/22/2025 - 17:22:57: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:22:57: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:22:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:22:57: [SM] Call stack trace:
+L 05/22/2025 - 17:22:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:22:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:24:14: Error log file session closed.
+L 05/22/2025 - 17:24:17: SourceMod error session started
+L 05/22/2025 - 17:24:17: Info (map "c7m2_barge") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:24:17: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:24:17: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:24:17: [SM] Call stack trace:
+L 05/22/2025 - 17:24:17: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:24:17: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:25:23: Error log file session closed.
+L 05/22/2025 - 17:25:25: SourceMod error session started
+L 05/22/2025 - 17:25:25: Info (map "c4m5_milltown_escape") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:25:25: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:25:25: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:25:25: [SM] Call stack trace:
+L 05/22/2025 - 17:25:25: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:25:25: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:26:21: Error log file session closed.
+L 05/22/2025 - 17:26:23: SourceMod error session started
+L 05/22/2025 - 17:26:23: Info (map "c5m1_waterfront") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:26:23: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:26:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:26:23: [SM] Call stack trace:
+L 05/22/2025 - 17:26:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:26:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:26:24: Error log file session closed.
+L 05/22/2025 - 17:26:39: SourceMod error session started
+L 05/22/2025 - 17:26:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:26:39: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 17:26:39: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 17:26:39: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 17:26:46: Error log file session closed.
+L 05/22/2025 - 17:34:07: SourceMod error session started
+L 05/22/2025 - 17:34:07: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:34:07: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 17:34:07: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 17:34:07: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 17:34:13: Error log file session closed.
+L 05/22/2025 - 17:35:22: SourceMod error session started
+L 05/22/2025 - 17:35:22: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:35:22: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:35:22: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:35:22: [SM] Call stack trace:
+L 05/22/2025 - 17:35:22: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:35:22: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:36:20: Error log file session closed.
+L 05/22/2025 - 17:36:21: SourceMod error session started
+L 05/22/2025 - 17:36:21: Info (map "c1m2_streets") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:36:21: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:36:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:36:21: [SM] Call stack trace:
+L 05/22/2025 - 17:36:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:36:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:37:18: Error log file session closed.
+L 05/22/2025 - 17:37:19: SourceMod error session started
+L 05/22/2025 - 17:37:19: Info (map "c5m3_cemetery") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:37:19: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:37:19: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:37:19: [SM] Call stack trace:
+L 05/22/2025 - 17:37:19: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:37:19: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:38:13: Error log file session closed.
+L 05/22/2025 - 17:38:15: SourceMod error session started
+L 05/22/2025 - 17:38:15: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:38:15: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:38:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:38:15: [SM] Call stack trace:
+L 05/22/2025 - 17:38:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:38:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:39:13: Error log file session closed.
+L 05/22/2025 - 17:39:15: SourceMod error session started
+L 05/22/2025 - 17:39:15: Info (map "c12m5_cornfield") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:39:15: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:39:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:39:15: [SM] Call stack trace:
+L 05/22/2025 - 17:39:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:39:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:42:30: Error log file session closed.
+L 05/22/2025 - 17:42:32: SourceMod error session started
+L 05/22/2025 - 17:42:32: Info (map "c13m1_alpinecreek") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:42:32: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:42:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:42:32: [SM] Call stack trace:
+L 05/22/2025 - 17:42:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:42:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:42:33: [xr/l4d2_mixmap.smx] Map order array is empty in Timed_GiveThemTimeToReadTheMapList. Aborting map transition.
+L 05/22/2025 - 17:42:50: Error log file session closed.
+L 05/22/2025 - 17:42:52: SourceMod error session started
+L 05/22/2025 - 17:42:52: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:42:52: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:42:52: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:42:52: [SM] Call stack trace:
+L 05/22/2025 - 17:42:52: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:42:52: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:46:48: SourceMod error session started
+L 05/22/2025 - 17:46:48: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:46:48: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 17:46:48: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 17:46:48: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 17:46:54: Error log file session closed.
+L 05/22/2025 - 17:47:47: SourceMod error session started
+L 05/22/2025 - 17:47:47: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:47:47: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:47:47: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:47:47: [SM] Call stack trace:
+L 05/22/2025 - 17:47:47: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:47:47: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:49:16: Error log file session closed.
+L 05/22/2025 - 17:49:17: SourceMod error session started
+L 05/22/2025 - 17:49:17: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:49:17: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:49:17: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:49:17: [SM] Call stack trace:
+L 05/22/2025 - 17:49:17: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:49:17: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:49:59: Error log file session closed.
+L 05/22/2025 - 17:50:01: SourceMod error session started
+L 05/22/2025 - 17:50:01: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:50:01: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:50:01: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:50:01: [SM] Call stack trace:
+L 05/22/2025 - 17:50:01: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:50:01: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:50:03: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 17:50:03: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:50:03: [SM] Call stack trace:
+L 05/22/2025 - 17:50:03: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:50:03: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 17:51:38: Error log file session closed.
+L 05/22/2025 - 17:51:40: SourceMod error session started
+L 05/22/2025 - 17:51:40: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 17:51:40: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 17:51:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 17:51:40: [SM] Call stack trace:
+L 05/22/2025 - 17:51:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 17:51:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:06:10: SourceMod error session started
+L 05/22/2025 - 18:06:10: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:06:10: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 18:06:10: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 18:06:10: [SM] Unable to load plugin "xr/l4d2_customtags.smx": Could not find required plugin "chat-processor"
+L 05/22/2025 - 18:06:10: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 18:06:16: Error log file session closed.
+L 05/22/2025 - 18:10:01: SourceMod error session started
+L 05/22/2025 - 18:10:01: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:10:01: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:10:01: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:10:01: [SM] Call stack trace:
+L 05/22/2025 - 18:10:01: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:10:01: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:11:06: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 18:11:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:11:06: [SM] Call stack trace:
+L 05/22/2025 - 18:11:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:11:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:11:15: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 18:11:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:11:15: [SM] Call stack trace:
+L 05/22/2025 - 18:11:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:11:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:12:10: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:12:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:12:10: [SM] Call stack trace:
+L 05/22/2025 - 18:12:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:12:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:17:07: SourceMod error session started
+L 05/22/2025 - 18:17:07: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:17:07: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 18:17:07: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 18:17:07: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 18:17:14: Error log file session closed.
+L 05/22/2025 - 18:17:57: SourceMod error session started
+L 05/22/2025 - 18:17:57: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:17:57: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 18:17:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:17:57: [SM] Call stack trace:
+L 05/22/2025 - 18:17:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:17:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:22:00: SourceMod error session started
+L 05/22/2025 - 18:22:00: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:22:00: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 18:22:00: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 18:22:00: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 18:22:07: Error log file session closed.
+L 05/22/2025 - 18:23:12: SourceMod error session started
+L 05/22/2025 - 18:23:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:23:12: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 18:23:12: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:23:12: [SM] Call stack trace:
+L 05/22/2025 - 18:23:12: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:23:12: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:34:05: SourceMod error session started
+L 05/22/2025 - 18:34:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:34:05: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 18:34:05: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 18:34:05: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 18:34:11: Error log file session closed.
+L 05/22/2025 - 18:34:36: SourceMod error session started
+L 05/22/2025 - 18:34:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:34:36: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 18:34:36: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:34:36: [SM] Call stack trace:
+L 05/22/2025 - 18:34:36: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:34:36: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:37:11: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 18:37:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:37:11: [SM] Call stack trace:
+L 05/22/2025 - 18:37:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:37:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:37:16: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:37:16: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:37:16: [SM] Call stack trace:
+L 05/22/2025 - 18:37:16: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:37:16: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:40:29: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 18:40:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:40:29: [SM] Call stack trace:
+L 05/22/2025 - 18:40:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:40:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:40:59: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:40:59: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:40:59: [SM] Call stack trace:
+L 05/22/2025 - 18:40:59: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:40:59: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:41:56: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:41:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:41:56: [SM] Call stack trace:
+L 05/22/2025 - 18:41:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:41:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:42:01: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 18:42:01: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:42:01: [SM] Call stack trace:
+L 05/22/2025 - 18:42:01: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:42:01: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:42:04: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 18:42:04: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:42:04: [SM] Call stack trace:
+L 05/22/2025 - 18:42:04: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:42:04: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:42:54: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 18:42:54: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:42:54: [SM] Call stack trace:
+L 05/22/2025 - 18:42:54: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:42:54: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:42:55: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 18:42:55: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:42:55: [SM] Call stack trace:
+L 05/22/2025 - 18:42:55: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:42:55: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:53:32: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 18:53:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:53:32: [SM] Call stack trace:
+L 05/22/2025 - 18:53:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:53:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:54:12: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 18:54:12: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:54:12: [SM] Call stack trace:
+L 05/22/2025 - 18:54:12: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:54:12: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:54:24: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 18:54:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:54:24: [SM] Call stack trace:
+L 05/22/2025 - 18:54:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:54:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:55:58: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 18:55:58: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 18:55:58: [SM] Call stack trace:
+L 05/22/2025 - 18:55:58: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 18:55:58: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 18:56:32: SourceMod error session started
+L 05/22/2025 - 18:56:32: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 18:56:32: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 18:56:32: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 18:56:32: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 18:56:38: Error log file session closed.
+L 05/22/2025 - 19:22:35: SourceMod error session started
+L 05/22/2025 - 19:22:35: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 19:22:35: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 19:22:35: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:22:35: [SM] Call stack trace:
+L 05/22/2025 - 19:22:35: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:22:35: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:23:23: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 19:23:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:23:23: [SM] Call stack trace:
+L 05/22/2025 - 19:23:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:23:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:23:42: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 19:23:42: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:23:42: [SM] Call stack trace:
+L 05/22/2025 - 19:23:42: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:23:42: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:24:16: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 19:24:16: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:24:16: [SM] Call stack trace:
+L 05/22/2025 - 19:24:16: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:24:16: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:25:20: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 19:25:20: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:25:20: [SM] Call stack trace:
+L 05/22/2025 - 19:25:20: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:25:20: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:25:47: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 19:25:47: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:25:47: [SM] Call stack trace:
+L 05/22/2025 - 19:25:47: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:25:47: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:28:03: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 19:28:03: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:28:03: [SM] Call stack trace:
+L 05/22/2025 - 19:28:03: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:28:03: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:28:29: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 19:28:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:28:29: [SM] Call stack trace:
+L 05/22/2025 - 19:28:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:28:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:28:56: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 19:28:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:28:56: [SM] Call stack trace:
+L 05/22/2025 - 19:28:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:28:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:30:08: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 19:30:08: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:30:08: [SM] Call stack trace:
+L 05/22/2025 - 19:30:08: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:30:08: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:32:30: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 19:32:30: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:32:30: [SM] Call stack trace:
+L 05/22/2025 - 19:32:30: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:32:30: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:34:29: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 19:34:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:34:29: [SM] Call stack trace:
+L 05/22/2025 - 19:34:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:34:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:35:48: SourceMod error session started
+L 05/22/2025 - 19:35:48: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 19:35:48: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 19:35:48: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 19:35:48: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 19:35:54: Error log file session closed.
+L 05/22/2025 - 19:36:20: SourceMod error session started
+L 05/22/2025 - 19:36:20: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 19:36:20: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 19:36:20: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:36:20: [SM] Call stack trace:
+L 05/22/2025 - 19:36:20: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:36:20: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:36:42: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 19:36:42: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:36:42: [SM] Call stack trace:
+L 05/22/2025 - 19:36:42: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:36:42: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:36:42: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 19:36:42: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:36:42: [SM] Call stack trace:
+L 05/22/2025 - 19:36:42: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:36:42: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:37:47: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 19:37:47: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:37:47: [SM] Call stack trace:
+L 05/22/2025 - 19:37:47: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:37:47: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:40:50: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 19:40:50: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:40:50: [SM] Call stack trace:
+L 05/22/2025 - 19:40:50: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:40:50: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:42:21: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 19:42:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:42:21: [SM] Call stack trace:
+L 05/22/2025 - 19:42:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:42:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:44:06: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 19:44:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:44:06: [SM] Call stack trace:
+L 05/22/2025 - 19:44:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:44:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 19:46:05: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 19:46:05: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 19:46:05: [SM] Call stack trace:
+L 05/22/2025 - 19:46:05: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 19:46:05: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:53: Error log file session closed.
+L 05/22/2025 - 20:03:55: SourceMod error session started
+L 05/22/2025 - 20:03:55: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:03:55: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 20:03:55: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:55: [SM] Call stack trace:
+L 05/22/2025 - 20:03:55: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:55: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:03:56: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:03:56: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:03:56: [SM] Call stack trace:
+L 05/22/2025 - 20:03:56: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:03:56: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:08:06: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:08:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:08:06: [SM] Call stack trace:
+L 05/22/2025 - 20:08:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:08:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:26: Error log file session closed.
+L 05/22/2025 - 20:17:28: SourceMod error session started
+L 05/22/2025 - 20:17:28: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:17:28: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:17:28: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:28: [SM] Call stack trace:
+L 05/22/2025 - 20:17:28: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:28: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:17:29: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:17:29: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:17:29: [SM] Call stack trace:
+L 05/22/2025 - 20:17:29: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:17:29: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:34:40: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:34:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:34:40: [SM] Call stack trace:
+L 05/22/2025 - 20:34:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:34:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:34: Error log file session closed.
+L 05/22/2025 - 20:35:36: SourceMod error session started
+L 05/22/2025 - 20:35:36: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:35:36: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:35:36: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:36: [SM] Call stack trace:
+L 05/22/2025 - 20:35:36: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:36: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:35:37: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:35:37: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:35:37: [SM] Call stack trace:
+L 05/22/2025 - 20:35:37: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:35:37: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:40:16: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:40:16: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:40:16: [SM] Call stack trace:
+L 05/22/2025 - 20:40:16: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:40:16: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:21: Error log file session closed.
+L 05/22/2025 - 20:49:23: SourceMod error session started
+L 05/22/2025 - 20:49:23: Info (map "c2m5_concert") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:49:23: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:49:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:49:23: [SM] Call stack trace:
+L 05/22/2025 - 20:49:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:49:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:51:21: Error log file session closed.
+L 05/22/2025 - 20:51:23: SourceMod error session started
+L 05/22/2025 - 20:51:23: Info (map "c5m1_waterfront") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:51:23: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:51:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:51:23: [SM] Call stack trace:
+L 05/22/2025 - 20:51:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:51:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:51:23: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:51:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:51:23: [SM] Call stack trace:
+L 05/22/2025 - 20:51:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:51:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:51:24: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:51:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:51:24: [SM] Call stack trace:
+L 05/22/2025 - 20:51:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:51:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:52:54: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 20:52:54: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:52:54: [SM] Call stack trace:
+L 05/22/2025 - 20:52:54: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:52:54: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:56:47: Error log file session closed.
+L 05/22/2025 - 20:56:49: SourceMod error session started
+L 05/22/2025 - 20:56:49: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:56:49: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:56:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:56:49: [SM] Call stack trace:
+L 05/22/2025 - 20:56:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:56:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:56:49: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 20:56:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:56:49: [SM] Call stack trace:
+L 05/22/2025 - 20:56:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:56:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:56:50: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 20:56:50: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:56:50: [SM] Call stack trace:
+L 05/22/2025 - 20:56:50: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:56:50: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:57:46: SourceMod error session started
+L 05/22/2025 - 20:57:46: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:57:46: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 20:57:46: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 20:57:46: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 20:57:52: Error log file session closed.
+L 05/22/2025 - 20:58:25: SourceMod error session started
+L 05/22/2025 - 20:58:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:58:25: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:58:25: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:58:25: [SM] Call stack trace:
+L 05/22/2025 - 20:58:25: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:58:25: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:58:27: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:58:27: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:58:27: [SM] Call stack trace:
+L 05/22/2025 - 20:58:27: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:58:27: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:58:59: Error log file session closed.
+L 05/22/2025 - 20:59:00: SourceMod error session started
+L 05/22/2025 - 20:59:00: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 20:59:00: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 20:59:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:59:00: [SM] Call stack trace:
+L 05/22/2025 - 20:59:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:59:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:59:00: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 20:59:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:59:00: [SM] Call stack trace:
+L 05/22/2025 - 20:59:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:59:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:59:00: [SM] Exception reported: Client 7 is not in game
+L 05/22/2025 - 20:59:00: [SM] Blaming: optional/blocktrolls.smx
+L 05/22/2025 - 20:59:00: [SM] Call stack trace:
+L 05/22/2025 - 20:59:00: [SM]   [0] ThrowError
+L 05/22/2025 - 20:59:00: [SM]   [1] Line 132, colors::CPrintToChat
+L 05/22/2025 - 20:59:00: [SM]   [2] Line 69, C:\Users\Sir\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\blocktrolls.sp::Vote_Listener
+L 05/22/2025 - 20:59:00: [SM] Exception reported: Client 7 is not in game
+L 05/22/2025 - 20:59:00: [SM] Blaming: optional/readyup.smx
+L 05/22/2025 - 20:59:00: [SM] Call stack trace:
+L 05/22/2025 - 20:59:00: [SM]   [0] GetClientTeam
+L 05/22/2025 - 20:59:00: [SM]   [1] Line 89, readyup\player.inc::IsPlayer
+L 05/22/2025 - 20:59:00: [SM]   [2] Line 27, readyup\command.inc::Ready_Cmd
+L 05/22/2025 - 20:59:00: [SM]   [3] Line 417, .\readyup.sp::Vote_Callback
+L 05/22/2025 - 20:59:01: [SM] Exception reported: Client 7 is not in game
+L 05/22/2025 - 20:59:01: [SM] Blaming: optional/blocktrolls.smx
+L 05/22/2025 - 20:59:01: [SM] Call stack trace:
+L 05/22/2025 - 20:59:01: [SM]   [0] ThrowError
+L 05/22/2025 - 20:59:01: [SM]   [1] Line 132, colors::CPrintToChat
+L 05/22/2025 - 20:59:01: [SM]   [2] Line 69, C:\Users\Sir\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\blocktrolls.sp::Vote_Listener
+L 05/22/2025 - 20:59:01: [SM] Exception reported: Client 7 is not in game
+L 05/22/2025 - 20:59:01: [SM] Blaming: optional/readyup.smx
+L 05/22/2025 - 20:59:01: [SM] Call stack trace:
+L 05/22/2025 - 20:59:01: [SM]   [0] GetClientTeam
+L 05/22/2025 - 20:59:01: [SM]   [1] Line 89, readyup\player.inc::IsPlayer
+L 05/22/2025 - 20:59:01: [SM]   [2] Line 27, readyup\command.inc::Ready_Cmd
+L 05/22/2025 - 20:59:01: [SM]   [3] Line 417, .\readyup.sp::Vote_Callback
+L 05/22/2025 - 20:59:01: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 20:59:01: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:59:01: [SM] Call stack trace:
+L 05/22/2025 - 20:59:01: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:59:01: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:59:43: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 20:59:43: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:59:43: [SM] Call stack trace:
+L 05/22/2025 - 20:59:43: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:59:43: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 20:59:49: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 20:59:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 20:59:49: [SM] Call stack trace:
+L 05/22/2025 - 20:59:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 20:59:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:00:27: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:00:27: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:00:27: [SM] Call stack trace:
+L 05/22/2025 - 21:00:27: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:00:27: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:00:39: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 21:00:39: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:00:39: [SM] Call stack trace:
+L 05/22/2025 - 21:00:39: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:00:39: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:01:26: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:01:26: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:01:26: [SM] Call stack trace:
+L 05/22/2025 - 21:01:26: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:01:26: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:09: Error log file session closed.
+L 05/22/2025 - 21:13:10: SourceMod error session started
+L 05/22/2025 - 21:13:10: Info (map "c1m2_streets") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 21:13:10: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:13:10: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:10: [SM] Call stack trace:
+L 05/22/2025 - 21:13:10: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:10: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:13:11: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:13:11: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:13:11: [SM] Call stack trace:
+L 05/22/2025 - 21:13:11: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:13:11: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:20:35: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:20:35: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:20:35: [SM] Call stack trace:
+L 05/22/2025 - 21:20:35: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:20:35: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:36: Error log file session closed.
+L 05/22/2025 - 21:26:38: SourceMod error session started
+L 05/22/2025 - 21:26:38: Info (map "c1m3_mall") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 21:26:38: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:26:38: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:38: [SM] Call stack trace:
+L 05/22/2025 - 21:26:38: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:38: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:26:40: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 21:26:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:26:40: [SM] Call stack trace:
+L 05/22/2025 - 21:26:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:26:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:31:25: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:31:25: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:31:25: [SM] Call stack trace:
+L 05/22/2025 - 21:31:25: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:31:25: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:06: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:39:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:06: [SM] Call stack trace:
+L 05/22/2025 - 21:39:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:50: Error log file session closed.
+L 05/22/2025 - 21:39:52: SourceMod error session started
+L 05/22/2025 - 21:39:52: Info (map "c1m4_atrium") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 21:39:52: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:39:52: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:52: [SM] Call stack trace:
+L 05/22/2025 - 21:39:52: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:52: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:52: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:39:52: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:52: [SM] Call stack trace:
+L 05/22/2025 - 21:39:52: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:52: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:39:53: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:39:53: [SM] Call stack trace:
+L 05/22/2025 - 21:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:29: Error log file session closed.
+L 05/22/2025 - 21:41:31: SourceMod error session started
+L 05/22/2025 - 21:41:31: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 21:41:31: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:41:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:31: [SM] Call stack trace:
+L 05/22/2025 - 21:41:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:41:32: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:41:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:41:32: [SM] Call stack trace:
+L 05/22/2025 - 21:41:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:41:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:42:38: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:42:38: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:42:38: [SM] Call stack trace:
+L 05/22/2025 - 21:42:38: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:42:38: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:42:57: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:42:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:42:57: [SM] Call stack trace:
+L 05/22/2025 - 21:42:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:42:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:42:57: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:42:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:42:57: [SM] Call stack trace:
+L 05/22/2025 - 21:42:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:42:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:44:24: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:44:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:44:24: [SM] Call stack trace:
+L 05/22/2025 - 21:44:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:44:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:44:31: [SM] Exception reported: Client index 9 is invalid
+L 05/22/2025 - 21:44:31: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:44:31: [SM] Call stack trace:
+L 05/22/2025 - 21:44:31: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:44:31: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:45:03: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:45:03: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:45:03: [SM] Call stack trace:
+L 05/22/2025 - 21:45:03: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:45:03: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:48:49: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:48:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:48:49: [SM] Call stack trace:
+L 05/22/2025 - 21:48:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:48:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:50:02: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:50:02: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:50:02: [SM] Call stack trace:
+L 05/22/2025 - 21:50:02: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:50:02: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:52:09: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:52:09: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:52:09: [SM] Call stack trace:
+L 05/22/2025 - 21:52:09: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:52:09: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:12: Error log file session closed.
+L 05/22/2025 - 21:55:14: SourceMod error session started
+L 05/22/2025 - 21:55:14: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 21:55:14: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 21:55:14: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:14: [SM] Call stack trace:
+L 05/22/2025 - 21:55:14: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:14: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:15: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 21:55:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:15: [SM] Call stack trace:
+L 05/22/2025 - 21:55:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:15: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 21:55:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:15: [SM] Call stack trace:
+L 05/22/2025 - 21:55:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:15: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 21:55:15: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:15: [SM] Call stack trace:
+L 05/22/2025 - 21:55:15: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:15: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:30: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:55:30: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:30: [SM] Call stack trace:
+L 05/22/2025 - 21:55:30: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:30: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:32: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:55:32: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:32: [SM] Call stack trace:
+L 05/22/2025 - 21:55:32: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:32: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:36: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:55:36: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:36: [SM] Call stack trace:
+L 05/22/2025 - 21:55:36: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:36: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:51: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 21:55:51: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:51: [SM] Call stack trace:
+L 05/22/2025 - 21:55:51: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:51: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:55:53: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:55:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:55:53: [SM] Call stack trace:
+L 05/22/2025 - 21:55:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:55:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:56:34: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 21:56:34: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:56:34: [SM] Call stack trace:
+L 05/22/2025 - 21:56:34: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:56:34: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:56:41: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:56:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:56:41: [SM] Call stack trace:
+L 05/22/2025 - 21:56:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:56:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:56:49: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:56:49: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:56:49: [SM] Call stack trace:
+L 05/22/2025 - 21:56:49: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:56:49: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:58:36: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 21:58:36: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:58:36: [SM] Call stack trace:
+L 05/22/2025 - 21:58:36: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:58:36: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 21:58:42: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 21:58:42: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 21:58:42: [SM] Call stack trace:
+L 05/22/2025 - 21:58:42: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 21:58:42: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:21: Error log file session closed.
+L 05/22/2025 - 22:08:23: SourceMod error session started
+L 05/22/2025 - 22:08:23: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 22:08:23: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 22:08:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:23: [SM] Call stack trace:
+L 05/22/2025 - 22:08:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:08:24: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 22:08:24: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:08:24: [SM] Call stack trace:
+L 05/22/2025 - 22:08:24: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:08:24: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:14:28: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 22:14:28: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:14:28: [SM] Call stack trace:
+L 05/22/2025 - 22:14:28: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:14:28: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:17:50: SourceMod error session started
+L 05/22/2025 - 22:17:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 22:17:50: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 22:17:50: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 22:17:50: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 22:17:56: Error log file session closed.
+L 05/22/2025 - 22:35:54: SourceMod error session started
+L 05/22/2025 - 22:35:54: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 22:35:54: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 22:35:54: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:35:54: [SM] Call stack trace:
+L 05/22/2025 - 22:35:54: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:35:54: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:36:35: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 22:36:35: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:36:35: [SM] Call stack trace:
+L 05/22/2025 - 22:36:35: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:36:35: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:37:05: Error log file session closed.
+L 05/22/2025 - 22:37:06: SourceMod error session started
+L 05/22/2025 - 22:37:06: Info (map "c1m1_hotel") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 22:37:06: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 22:37:06: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:37:06: [SM] Call stack trace:
+L 05/22/2025 - 22:37:06: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:37:06: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:37:07: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 22:37:07: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:37:07: [SM] Call stack trace:
+L 05/22/2025 - 22:37:07: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:37:07: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:37:25: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 22:37:25: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:37:25: [SM] Call stack trace:
+L 05/22/2025 - 22:37:25: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:37:25: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:37:39: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 22:37:39: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:37:39: [SM] Call stack trace:
+L 05/22/2025 - 22:37:39: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:37:39: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:38:48: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 22:38:48: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:38:48: [SM] Call stack trace:
+L 05/22/2025 - 22:38:48: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:38:48: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:39:01: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 22:39:01: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:39:01: [SM] Call stack trace:
+L 05/22/2025 - 22:39:01: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:39:01: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:39:23: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 22:39:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:39:23: [SM] Call stack trace:
+L 05/22/2025 - 22:39:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:39:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:39:53: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 22:39:53: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:39:53: [SM] Call stack trace:
+L 05/22/2025 - 22:39:53: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:39:53: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:42:07: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 22:42:07: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:42:07: [SM] Call stack trace:
+L 05/22/2025 - 22:42:07: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:42:07: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:43:23: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 22:43:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:43:23: [SM] Call stack trace:
+L 05/22/2025 - 22:43:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:43:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:46:20: [SM] Exception reported: Client index 10 is invalid
+L 05/22/2025 - 22:46:20: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:46:20: [SM] Call stack trace:
+L 05/22/2025 - 22:46:20: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:46:20: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:55:57: Error log file session closed.
+L 05/22/2025 - 22:55:59: SourceMod error session started
+L 05/22/2025 - 22:55:59: Info (map "c1m2_streets") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 22:55:59: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 22:55:59: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:55:59: [SM] Call stack trace:
+L 05/22/2025 - 22:55:59: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:55:59: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:55:59: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 22:55:59: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:55:59: [SM] Call stack trace:
+L 05/22/2025 - 22:55:59: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:55:59: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 8 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:00: [SM] Exception reported: Client index 10 is invalid
+L 05/22/2025 - 22:56:00: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:00: [SM] Call stack trace:
+L 05/22/2025 - 22:56:00: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:00: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 22:56:43: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 22:56:43: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 22:56:43: [SM] Call stack trace:
+L 05/22/2025 - 22:56:43: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 22:56:43: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:01:46: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:01:46: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:01:46: [SM] Call stack trace:
+L 05/22/2025 - 23:01:46: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:01:46: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:03:28: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:03:28: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:03:28: [SM] Call stack trace:
+L 05/22/2025 - 23:03:28: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:03:28: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:04:16: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:04:16: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:04:16: [SM] Call stack trace:
+L 05/22/2025 - 23:04:16: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:04:16: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:04:54: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:04:54: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:04:54: [SM] Call stack trace:
+L 05/22/2025 - 23:04:54: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:04:54: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:06:57: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:06:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:06:57: [SM] Call stack trace:
+L 05/22/2025 - 23:06:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:06:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:07:23: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:07:23: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:07:23: [SM] Call stack trace:
+L 05/22/2025 - 23:07:23: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:07:23: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:09:25: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 23:09:25: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:09:25: [SM] Call stack trace:
+L 05/22/2025 - 23:09:25: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:09:25: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:15:08: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 23:15:08: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:15:08: [SM] Call stack trace:
+L 05/22/2025 - 23:15:08: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:15:08: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:38: Error log file session closed.
+L 05/22/2025 - 23:16:40: SourceMod error session started
+L 05/22/2025 - 23:16:40: Info (map "c1m3_mall") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 23:16:40: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 23:16:40: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:40: [SM] Call stack trace:
+L 05/22/2025 - 23:16:40: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:40: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:41: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 23:16:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:41: [SM] Call stack trace:
+L 05/22/2025 - 23:16:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:41: [SM] Exception reported: Client index 10 is invalid
+L 05/22/2025 - 23:16:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:41: [SM] Call stack trace:
+L 05/22/2025 - 23:16:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:41: [SM] Exception reported: Client index 4 is invalid
+L 05/22/2025 - 23:16:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:41: [SM] Call stack trace:
+L 05/22/2025 - 23:16:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:41: [SM] Exception reported: Client index 5 is invalid
+L 05/22/2025 - 23:16:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:41: [SM] Call stack trace:
+L 05/22/2025 - 23:16:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:16:41: [SM] Exception reported: Client index 7 is invalid
+L 05/22/2025 - 23:16:41: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:16:41: [SM] Call stack trace:
+L 05/22/2025 - 23:16:41: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:16:41: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:17:03: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 23:17:03: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:17:03: [SM] Call stack trace:
+L 05/22/2025 - 23:17:03: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:17:03: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:17:57: [SM] Exception reported: Client index 3 is invalid
+L 05/22/2025 - 23:17:57: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:17:57: [SM] Call stack trace:
+L 05/22/2025 - 23:17:57: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:17:57: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:20:18: Error log file session closed.
+L 05/22/2025 - 23:20:20: SourceMod error session started
+L 05/22/2025 - 23:20:20: Info (map "c1m3_mall") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 23:20:20: [SM] Exception reported: Client index 1 is invalid
+L 05/22/2025 - 23:20:20: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:20:20: [SM] Call stack trace:
+L 05/22/2025 - 23:20:20: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:20:20: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:20:20: [SM] Exception reported: Client index 6 is invalid
+L 05/22/2025 - 23:20:20: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:20:20: [SM] Call stack trace:
+L 05/22/2025 - 23:20:20: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:20:20: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:20:21: [SM] Exception reported: Client index 10 is invalid
+L 05/22/2025 - 23:20:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:20:21: [SM] Call stack trace:
+L 05/22/2025 - 23:20:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:20:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:20:50: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 23:20:50: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:20:50: [SM] Call stack trace:
+L 05/22/2025 - 23:20:50: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:20:50: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:21:21: [SM] Exception reported: Client index 2 is invalid
+L 05/22/2025 - 23:21:21: [SM] Blaming: mt_experience.smx
+L 05/22/2025 - 23:21:21: [SM] Call stack trace:
+L 05/22/2025 - 23:21:21: [SM]   [0] SteamWorks_RequestStats
+L 05/22/2025 - 23:21:21: [SM]   [1] Line 153, .\mt_experience.sp::OnClientAuthorized
+L 05/22/2025 - 23:23:36: SourceMod error session started
+L 05/22/2025 - 23:23:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/l4d2/left4dead2/addons/sourcemod/logs/errors_20250522.log")
+L 05/22/2025 - 23:23:36: [SM] Unable to load plugin "xr/l4d2_quick_leave_ban.smx": Could not find required plugin "readyup"
+L 05/22/2025 - 23:23:36: [SM] Unable to load plugin "xr/l4d2_hybrid_scoremod_zone.smx": Could not find required plugin "l4d2lib"
+L 05/22/2025 - 23:23:36: [SM] Unable to load plugin "xr/l4d2_scripted_hud.smx": Native "SMPlus_GetMedkitBonus" was not found
+L 05/22/2025 - 23:23:42: Error log file session closed.
