@@ -6,6 +6,10 @@
 		{
 			"name" "Applemod"
 		}
+	"xr4v4charger"
+		{
+			"name" "4V4全牛测试"
+		}
 	}
 	"Zonemod 药抗"
 	{

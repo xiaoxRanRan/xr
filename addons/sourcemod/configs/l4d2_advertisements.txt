@@ -8,36 +8,31 @@
 	"2"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[提示]{GREEN}!votes{TEAM}投票，{GREEN}!vm{TEAM}禁止玩家语音投票，{GREEN}!vg{TEAM}禁止玩家聊天投票，{GREEN}生还Z键{TEAM}标记物品或者标记地点 {GREEN}换弹键{TEAM}可以给药包雷给队友"
+		"text"	"{GREEN}[提示]{TEAM}使用{GREEN}!votes{TEAM}来投票"
 	}
 	"3"
 	{
 		"type"	"S"
-		"text"	"{TEAM}暂时不能M是为了防错位，请等待一段时间 或者两边F1开始游戏即可M"
+		"text"	"{GREEN}暂时不能M是为了防错位，请等待一段时间 或者两边F1开始游戏即可M"
 	}
 	"4"
 	{
 		"type"	"S"
-		"text"	"{TEAM}能不能打完再退(╯︵╰),暖服不容易"
+		"text"	"{GREEN}能不能打完再退(╯︵╰),暖服不容易"
 	}
 	"5"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[公告]队友很括噪？输入!hear可以屏蔽队友语音哦 或者你也可以选择!mute来选择投票禁言禁音队友哦 旁观想听到特感队伍声音？也可以试试!hear哦"
+		"text"	"{GREEN}[提示{TEAM}]任何时候都可以输入{GREEN}!pass{TEAM}来给克"
 	}
 	"6"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[公告]本服大部分插件来自https://github.com/apples1949/applemod"
+		"text"	"{GREEN}[提示{TEAM}]使用{GREEN}!tag{TEAM}来自定义称号，使用{GREEN}!removetag{TEAM}来清除自定义称号。"
 	}
 	"7"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[提示{TEAM}]任何时候都可以输入{GREEN}!pass{TEAM}来给克"
-	}
-	"8"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[提示{TEAM}]使用{GREEN}!tag{TEAM}来自定义称号，使用{GREEN}!removetag{TEAM}来清除自定义称号。"
+		"text"	"{GREEN}[提示{TEAM}]本服有基于进阶包抗修改的4v4全牛，使用{GREEN}!chmatch{TEAM}来更改模式。目前处于测试阶段，欢迎加群反馈：{GREEN}492484931"
 	}
 }
