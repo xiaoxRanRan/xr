@@ -1,38 +1,65 @@
+// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+//能用 default teamcolor lightgreen yellow green
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
 "Advertisements"
 {
-	"1"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[公告]{TEAM}欢迎来到本服务器，本服游戏群:{GREEN}492484931。"
-	}
-	"2"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[提示]{TEAM}使用{GREEN}!votes{TEAM}来投票"
-	}
-	"3"
-	{
-		"type"	"S"
-		"text"	"{GREEN}暂时不能M是为了防错位，请等待一段时间 或者两边F1开始游戏即可M"
-	}
-	"4"
-	{
-		"type"	"S"
-		"text"	"{GREEN}能不能打完再退(╯︵╰),暖服不容易"
-	}
-	"5"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[提示{TEAM}]任何时候都可以输入{GREEN}!pass{TEAM}来给克"
-	}
-	"6"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[提示{TEAM}]使用{GREEN}!tag{TEAM}来自定义称号，使用{GREEN}!removetag{TEAM}来清除自定义称号。"
-	}
+    "1"
+    {
+        "chat"      "{green}[!] 本服标签为xr,加群加组防失联：{yellow}492484931"
+    }
+    "2"
+    {
+        "chat"      "{green}[!] 使用{yellow}!votes{green}来投票!"
+    }
+    "3"
+    {
+        "chat"      "{green}[!] 使用{yellow}!exp{green}光速出警!"
+    }
+    "4"
+    {
+        "chat"      "{green}[!] 使用{yellow}!mix{green}来拼好队!"
+    }
+    "5"
+    {
+        "chat"      "{green}[!] 使用{yellow}!mixmap{green}来拼好图!"
+    }
+    "6"
+    {
+        "chat"      "{green}[!] 使用{yellow}!tankpool{green}来看坦克队列!"
+    }
 	"7"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[提示{TEAM}]本服有基于进阶包抗修改的4v4全牛，使用{GREEN}!chmatch{TEAM}来更改模式。目前处于测试阶段，欢迎加群反馈：{GREEN}492484931"
-	}
+    {
+        "chat"      "{green}[!] 使用{yellow}!pass{green}来给克!"
+    }
+	"8"
+    {
+        "chat"      "{green}[!] 使用{yellow}!tag{green}来自定义称号,使用{yellow}!removetag{green}来清除自定义称号~"	
+    }
+	"9"
+    {
+        "chat"      "{green}[!] 暂时不能M是为了防错位，请等待一段时间 或者两边F1开始游戏即可M!"
+    }
+	"10"
+    {
+        "chat"      "{green}[!] 暖服不容易,能打完这m再退吗~~"
+    }
+	"11"
+    {
+        "chat"      "{green}[!]本服有基于进阶包抗修改的4v4全牛牛模式，使用{yellow}!chmatch{green}来更换模式。目前处于测试阶段，欢迎游玩加群反馈:{yellow}492484931"
+    }
 }
