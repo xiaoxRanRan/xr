@@ -156,7 +156,7 @@
     {
         "#format"	"{1:N}"
         "en"		"{1} vetoed the current vote."
-        "chi"		"{olive}<Mixmap>{default}管理員 {teamcolor}{1} 一票否决当前投票。"
+        "chi"		"{olive}<Mixmap>{default}管理员 {teamcolor}{1} 一票否决当前投票。"
     }
     "No_Plugin_Vote_To_Veto"
     {
