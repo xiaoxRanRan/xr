@@ -71,7 +71,7 @@ public void OnPluginStart()
 	RegAdminCmd("sm_stopmix", Cmd_MixStop, ADMFLAG_ROOT, "Mix command");
 	RegAdminCmd("sm_fmix", Admin_MixStart, ADMFLAG_ROOT, "Mix command");
 	RegAdminCmd("sm_forcemix", Admin_MixStart, ADMFLAG_ROOT, "Mix command");
-	
+	RegAdminCmd("sm_fstopmix", Cmd_VetoMixVote, ADMFLAG_VOTE, "管理员一票否决.");
 	AddCommandListener(Cmd_OnPlayerJoinTeam, "jointeam");
 	
 	hVoteResultsTrie = CreateTrie();
@@ -160,7 +160,7 @@ public void OnClientPutInServer(int client)
 	}
 }
 
-public Action Cmd_MixStop(int client, any args) 
+public Action Cmd_MixStop(int client, int args) 
 {
 	if (currentState != STATE_NO_MIX) 
 	{
@@ -174,7 +174,32 @@ public Action Cmd_MixStop(int client, any args)
 	
 	return Plugin_Continue;
 }
-
+public Action Cmd_VetoMixVote(int client, int args)
+{
+    if (IsBuiltinVoteInProgress())
+    {
+        if (hVoteMix != null || hVoteMixRd != null)
+        {
+            CancelBuiltinVote();
+            CPrintToChatAll("%t", "admin_vetoed_mix_vote", client);
+        }
+        else
+        {
+            CPrintToChat(client, "%t", "no_plugin_mix_vote_to_veto");
+        }
+    }
+    else
+    {
+        CPrintToChat(client, "%t", "no_active_mix_vote_to_veto");
+        if (hVoteMix != null) {
+            hVoteMix = null;
+        }
+        if (hVoteMixRd != null) {
+            hVoteMixRd = null;
+        }
+    }
+    return Plugin_Handled;
+}
 public Action Cmd_MixStart(int client, int Args)
 {
 	if (StartMixVote(client))

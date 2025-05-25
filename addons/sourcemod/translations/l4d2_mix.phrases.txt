@@ -217,4 +217,20 @@
 		"chi"		"启用Mix选人？"
 		"zho"		"啟用Mix選人？"
 	}
+	"admin_vetoed_mix_vote"
+    {
+        "#format"   "{1:N}"
+        "en"        "The current mix vote has been vetoed by admin {1}."
+        "chi"        "{orange}<Mix> {default}当前投票已被管理员 {olive}{1} 一票否决{default}"
+    }
+    "no_active_mix_vote_to_veto"
+    {
+        "en"        "There is no active mix vote initiated by this plugin to veto."
+        "chi"        "{orange}<Mix> {default}当前没有由本插件发起的队伍分配投票可以否决。"
+    }
+	"no_plugin_mix_vote_to_veto"
+    {
+        "en"        "There is an active vote, but it does not appear to be one initiated by this mix plugin."
+        "chi"        "{orange}<Mix> {default}当前有一个投票正在进行，但它似乎并非由本队伍分配插件发起。"
+    }
 }

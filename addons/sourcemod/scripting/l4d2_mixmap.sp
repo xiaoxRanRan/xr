@@ -118,7 +118,7 @@ public void OnPluginStart()
 	RegConsoleCmd( "sm_mixmap", Mixmap_Cmd, "Vote to start a mixmap (arg1 empty for 'default' maps pool);通过投票启用Mixmap，并可加载特定的地图池；无参数则启用官图顺序随机");
 	RegConsoleCmd( "sm_stopmixmap",	StopMixmap_Cmd, "Stop a mixmap;中止mixmap，并初始化地图列表");
 	RegAdminCmd( "sm_fstopmixmap",	StopMixmap, ADMFLAG_ROOT, "Force stop a mixmap ;强制中止mixmap，并初始化地图列表");
-
+	RegAdminCmd( "sm_fvotemixmap", Cmd_AdminVetoVote, ADMFLAG_VOTE, "Admin vetoes the current mixmap/stopmixmap vote. 管理员否决当前投票");
 	//Midcommand 插件启用后可使用的指令
 	RegConsoleCmd( "sm_maplist", Maplist, "Show the map list; 展示mixmap最终抽取出的地图列表");
 	RegAdminCmd( "sm_allmap", ShowAllMaps, ADMFLAG_ROOT, "Show all official maps code; 展示所有官方地图的地图代码");
@@ -442,7 +442,30 @@ public Action ShowAllMaps(int client, int Args)
 	
 	return Plugin_Handled;
 }
+public Action Cmd_AdminVetoVote(int client, int args)
+{
+    bool voteFoundToCancel = false;
 
+    if (hVoteMixmap != null && IsValidHandle(hVoteMixmap))
+    {
+        CancelBuiltinVote();
+        CPrintToChatAllEx(client, "%t", "Admin_Vetoed_Vote", client);
+        voteFoundToCancel = true;
+    }
+    else if (hVoteStopMixmap != null && IsValidHandle(hVoteStopMixmap))
+    {
+        CancelBuiltinVote();
+        CPrintToChatAllEx(client, "%t", "Admin_Vetoed_Vote", client);
+        voteFoundToCancel = true;
+    }
+
+    if (!voteFoundToCancel)
+    {
+        CReplyToCommand(client, "%t", "No_Plugin_Vote_To_Veto");
+    }
+
+    return Plugin_Handled;
+}
 
 // ----------------------------------------------------------
 // 		Commands: Client
