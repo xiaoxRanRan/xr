@@ -170,7 +170,8 @@ public OnConfigsExecuted()
 
 public OnMapStart()
 {
-    OnConfigsExecuted();
+    //OnConfigsExecuted();
+    CreateTimer(0.1, Timer_DelayedConfigsExecuted, _, TIMER_FLAG_NO_MAPCHANGE);
 
     iLostTempHealth[0] = 0;
     iLostTempHealth[1] = 0;
@@ -186,6 +187,12 @@ public OnMapStart()
     {
         g_iPreDamagePermanentHealth[i] = 0; 
     }
+}
+
+public Action:Timer_DelayedConfigsExecuted(Handle:timer)
+{
+    OnConfigsExecuted();
+    return Plugin_Stop; // 确保计时器只执行一次
 }
 
 void CvarChanged(Handle:convar, const String:oldValue[], const String:newValue[])

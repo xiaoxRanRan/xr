@@ -3,7 +3,7 @@
 
 #include <sourcemod>
 #include <mix_team>
-#include <steamworks>
+#include <SteamWorks>
 #include <colors>
 
 
@@ -15,9 +15,6 @@ public Plugin myinfo = {
     url         = "https://github.com/TouchMe-Inc/l4d2_mix_team"
 };
 
-#define TEAM_SURVIVOR          2
-#define TEAM_INFECTED          3
-
 #define TRANSLATIONS            "mt_experience.phrases"
 
 #define MIN_PLAYERS             6
@@ -25,7 +22,8 @@ public Plugin myinfo = {
 // Other
 #define APP_L4D2                550
 
-
+#define TEAM_SURVIVOR          2
+#define TEAM_INFECTED          3
 enum struct PlayerInfo {
     int id;
     float rating;
@@ -146,14 +144,16 @@ public void OnClientAuthorized(int iClient, const char[] sAuthId)
     if (sAuthId[0] == 'B' || sAuthId[9] == 'L') {
         return;
     }
-
+    if (IsClientInGame(iClient))
+    {
     /*
      * Get player stats.
      */
     SteamWorks_RequestStats(iClient, APP_L4D2);
+    }
 }
 
-any[] GetPlayerStats(int iClient)
+PlayerStats GetPlayerStats(int iClient)
 {
     PlayerStats tPlayerStats;
 
