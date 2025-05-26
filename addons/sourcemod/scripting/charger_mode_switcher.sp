@@ -48,7 +48,6 @@ int g_iChargeInterval;
 
 // SDK调用
 Handle g_hSDK_OnPummelEnded;
-Handle g_hSDK_OnStartCarryingVictim;
 
 public void OnPluginStart() {
     // 获取游戏ConVars
@@ -67,7 +66,7 @@ public void OnPluginStart() {
     
     // 创建高速模式ConVars
     g_cvEnhancedDamage = CreateConVar("charger_enhanced_damage", "10", "Enhanced mode damage on collision", FCVAR_NOTIFY, true, 0.0, true, 1000.0);
-    g_cvEnhancedFinish = CreateConVar("charger_enhanced_finish", "1", "Enhanced mode after charging. 0=Pummel. 1=Drop survivor. 2=Drop when incapped. 3=Both. 4=Continue carry", FCVAR_NOTIFY, true, 0.0, true, 4.0);
+    g_cvEnhancedFinish = CreateConVar("charger_enhanced_finish", "1", "Enhanced mode after charging. 0=Pummel. 1=Drop survivor. 2=Drop when incapped.", FCVAR_NOTIFY, true, 0.0, true, 2.0);
     g_cvEnhancedMaxSpeed = CreateConVar("charger_enhanced_max_speed", "1000.0", "Enhanced mode charger max speed", FCVAR_NOTIFY, true, 100.0, true, 5000.0);
     g_cvEnhancedStartSpeed = CreateConVar("charger_enhanced_start_speed", "200.0", "Enhanced mode charger start speed", FCVAR_NOTIFY, true, 100.0, true, 5000.0);
     
@@ -134,13 +133,6 @@ void SetupSDKCalls() {
         PrepSDKCall_AddParameter(SDKType_String, SDKPass_ByRef);
         PrepSDKCall_AddParameter(SDKType_CBaseEntity, SDKPass_Pointer);
         g_hSDK_OnPummelEnded = EndPrepSDKCall();
-    }
-    
-    // OnStartCarryingVictim SDK调用
-    StartPrepSDKCall(SDKCall_Player);
-    if (PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, "CTerrorPlayer::OnStartCarryingVictim")) {
-        PrepSDKCall_AddParameter(SDKType_CBaseEntity, SDKPass_Pointer);
-        g_hSDK_OnStartCarryingVictim = EndPrepSDKCall();
     }
     
     delete hGameData;
@@ -214,37 +206,12 @@ public void Event_CarryStart(Event event, const char[] name, bool dontBroadcast)
 public void Event_PummelStart(Event event, const char[] name, bool dontBroadcast) {
     int client = GetClientOfUserId(event.GetInt("userid"));
     
-    if (g_bHighSpeedMode[client] && g_iEnhancedFinish & (1<<0)) {
+    if (g_bHighSpeedMode[client] && g_iEnhancedFinish == 1) {
         if (GetGameTime() > g_fThrown[client]) {
             int target = GetEntPropEnt(client, Prop_Send, "m_pummelVictim");
             if (IsValidSurvivor(target)) {
                 DropVictim(client, target);
             }
-        }
-    } else if (g_bHighSpeedMode[client] && g_iEnhancedFinish == 4) {
-        // 继续携带模式
-        int target = GetEntPropEnt(client, Prop_Send, "m_pummelVictim");
-        if (IsValidSurvivor(target) && GetGameTime() > g_fThrown[client]) {
-            SetEntPropEnt(client, Prop_Send, "m_carryVictim", -1);
-            SetEntPropEnt(target, Prop_Send, "m_carryAttacker", -1);
-            if (g_hSDK_OnPummelEnded != null) {
-                SDKCall(g_hSDK_OnPummelEnded, client, "", target);
-            }
-            
-            g_bIncapped[target] = GetEntProp(target, Prop_Send, "m_isIncapacitated", 1) == 1;
-            if (g_bIncapped[target]) {
-                SetEntProp(target, Prop_Send, "m_isIncapacitated", 0, 1);
-            }
-            
-            g_fThrown[client] = GetGameTime() + 0.8;
-            if (g_hSDK_OnStartCarryingVictim != null) {
-                SDKCall(g_hSDK_OnStartCarryingVictim, client, target);
-            }
-            
-            float time = g_iChargeInterval - (GetGameTime() - g_fCharge[client]);
-            if (time < 1.0) time = 1.0;
-            SetWeaponAttack(client, true, time);
-            SetWeaponAttack(client, false, 0.6);
         }
     }
 }
@@ -264,7 +231,7 @@ public void Event_CarryEnd(Event event, const char[] name, bool dontBroadcast) {
 }
 
 public void Event_PlayerIncap(Event event, const char[] name, bool dontBroadcast) {
-    if (g_iEnhancedFinish & (1<<1)) {
+    if (g_iEnhancedFinish == 2) {
         int target = GetClientOfUserId(event.GetInt("userid"));
         int client = GetClientOfUserId(event.GetInt("attacker"));
         
@@ -309,9 +276,9 @@ public Action Timer_SetChargerHealth(Handle timer, int userid) {
     }
     
     if (g_bHighSpeedMode[client]) {
-        // 高速牛牛设置350血量
-        SetEntityHealth(client, 350);
-        PrintToChat(client, "\x04[Charger Mode] \x05高速牛牛生成! \x01血量: \x05350");
+        // 高速牛牛设置450血量
+        SetEntityHealth(client, 450);
+        PrintToChat(client, "\x04[Charger Mode] \x05高速牛牛生成! \x01血量: \x05450");
     }
     // 普通牛牛保持原样，不修改血量
     
@@ -323,7 +290,11 @@ public void Event_PlayerDeath(Event event, const char[] name, bool dontBroadcast
     if (!IsValidClient(client)) return;
     
     // 死亡时重置所有状态
-    ResetPlayerVars(client);
+    g_bIsCharging[client] = false;
+    g_bRightClickPressed[client] = false;
+    g_bIncapped[client] = false;
+    g_fCharge[client] = 0.0;
+    g_fThrown[client] = 0.0;
     
     g_cvChargeStartSpeed.SetFloat(g_fOriginalStartSpeed);
     g_cvChargeMaxSpeed.SetFloat(g_fOriginalMaxSpeed);
