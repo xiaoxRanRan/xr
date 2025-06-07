@@ -337,7 +337,9 @@ Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, in
     
     if (victim < 1 || victim > MaxClients || !IsClientInGame(victim) || !IsSurvivor(victim))
         return Plugin_Continue;
-        
+
+    bool isBot = IsFakeClient(victim);
+
     int realAttacker = attacker;
     if (realAttacker == 0)
     {
@@ -351,7 +353,7 @@ Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, in
         return Plugin_Continue;
         
     int playerHealth = GetClientHealth(victim) + GetSurvivorTemporaryHealth(victim);
-    if (RoundToFloor(damage) >= playerHealth)
+    if (RoundToFloor(damage) >= playerHealth || isBot)
     {
         g_iPlayerLastHealth[victim] = playerHealth;
     }
