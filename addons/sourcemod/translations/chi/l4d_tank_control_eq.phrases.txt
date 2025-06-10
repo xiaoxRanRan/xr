@@ -6,11 +6,11 @@
 	}
 	"Refilled"
 	{
-		"chi"		"{default}({green}%N{default}) 的{olive}控制权{red}重新回满"
+		"chi"		"{default}({green}%N{default}) {olive}一控结束，{red}二控开始"
 	}
 	"RefilledBot"
 	{
-		"chi"		"{olive}控制权{red}重新回满"
+		"chi"		"{olive}一控结束，{red}二控开始"
 	}
 
     "TagSelection"
@@ -41,7 +41,7 @@
 
     "HintText"
 	{
-		"chi"		"控制权重新回满"
+		"chi"		"一控结束，二控开始"
 	}
 
 	"PlayerAlreadyInQueue"
