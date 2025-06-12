@@ -29,7 +29,7 @@ public Plugin:myinfo =
 public OnPluginStart()
 {
 	g_hEnabled			= CreateConVar( "l4d2_JockeyPounce_enabled", "1", "启用/禁用插件");
-	g_hBlindAmount		= CreateConVar( "l4d2_JockeyPounce_blind", "150", "jockey使玩家致盲的程度 (0: 不致盲, 255:完全致盲 RGB值)");
+	g_hBlindAmount		= CreateConVar( "l4d2_JockeyPounce_blind", "0", "jockey使玩家致盲的程度 (0: 不致盲, 255:完全致盲 RGB值)");
 	g_hPounceScale		= CreateConVar( "l4d2_JockeyPounce_scale", "1.0", "jockey突袭伤害倍数 (例子: 0.5 为正常突袭伤害的一半, 5 为正常突袭伤害的5倍)");
 	g_hPounceCap			= CreateConVar( "l4d2_JockeyPounce_cap", "25", "突袭最大伤害");
 	g_hPounceMinShow		= CreateConVar( "l4d2_JockeyPounce_minshow", "1", "至少造成多少突袭伤害才会显示相关提示信息");
