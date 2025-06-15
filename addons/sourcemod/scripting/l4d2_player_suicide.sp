@@ -3,8 +3,10 @@
 #pragma newdecls required
 #include <sourcemod>
 #include <sdktools>
+#include <readyup>
 
-#define PLUGIN_VERSION "1.0.2"
+
+#define PLUGIN_VERSION "1.0.3"
 
 int    g_iSuicide, g_iShowTips;
 ConVar g_hSuicide, g_hShowTips;
@@ -13,7 +15,7 @@ public Plugin myinfo =
 {
 	name = "l4d2_player_suicide",
 	author = "豆瓣酱な",  
-	description = "玩家自杀指令",
+	description = "玩家自杀指令,准备阶段禁用",
 	version = PLUGIN_VERSION,
 	url = "N/A"
 };
@@ -100,11 +102,18 @@ public Action Command_Suicide(int client, int args)
 void IsFrameSuicide(int client)
 {
 	if ((client = GetClientOfUserId(client)))
+	{	
+		if (IsInReady())
+        {
+            PrintToChat(client, "\x04[提示]\x05准备阶段禁止使用自杀指令。");
+            return; // 如果在准备阶段，则终止函数
+        }
 		if(IsClientInGame(client) && !IsFakeClient(client))
 			if(g_iSuicide > 0)
 				IsRegSuicide(client);
 			else
 				PrintToChat(client, "\x04[提示]\x05玩家自杀指令未启用.");
+		}
 }
 
 void IsRegSuicide(int client)
