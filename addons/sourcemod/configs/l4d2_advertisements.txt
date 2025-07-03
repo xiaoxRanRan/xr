@@ -44,7 +44,7 @@
     }
 	"7"
     {
-        "chat"      "{green}[!] 使用{yellow}!pass{green}来给克!"
+        "chat"      "{green}[!] 萌新不会玩克请使用{yellow}!pass{green}来给克!"
     }
 	"8"
     {
@@ -60,6 +60,6 @@
     }
 	"11"
     {
-        "chat"      "{green}[!]本服有基于进阶包抗修改的4v4全牛牛模式，使用{yellow}!chmatch{green}来更换模式。目前处于测试阶段，欢迎游玩加群反馈:{yellow}492484931"
+        "chat"      "{green}[!]本服新加入{yellow}Hunter简易天花板插件{green}，默认开启，开启后高扑伤害上限为15，可通过{yellow}投票系统{green}关闭，触碰到天花板狂按鼠标左键即可.可用鼠标转向,妈妈再也不用担心我不会天花板啦~"
     }
 }

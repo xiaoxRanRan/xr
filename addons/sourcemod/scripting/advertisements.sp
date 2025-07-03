@@ -162,7 +162,7 @@ public Action Timer_DisplayAd(Handle timer)
     }
     if (ad.chat[0]) {
         bool teamColor[10];
-        char messages[10][1024];
+        char messages[20][2048];
         int messageCount = ExplodeString(ad.chat, "\n", messages, sizeof(messages), sizeof(messages[]));
 
         for (int idx; idx < messageCount; idx++) {

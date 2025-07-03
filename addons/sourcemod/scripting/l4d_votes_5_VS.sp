@@ -59,7 +59,15 @@ ConVar hforcespectate_penalty;
 int	   iforcespectate_penalty;
 ConVar hvotedelay_time;
 int	   ivotedelay_time;
+// 添加ConVar
+ConVar VotensHunterPitchLockED;
+bool VotensHunterPitchLockE_D;
 
+// 添加Hunter插件检查变量
+bool g_bHunterPluginLoaded = false;
+// Native函数声明
+native bool IsHunterPitchLockEnabled();
+native void SetHunterPitchLockEnabled(bool enabled);
 enum voteType
 {
 	None,
@@ -73,6 +81,8 @@ enum voteType
 	forcespectate,
 	forcedellobby,
 	forcestartgame,
+	hunterpitchlock,  // 新增
+
 } voteType g_voteType = None;
 
 int		   forcespectateid;
@@ -122,6 +132,11 @@ public void OnPluginStart()
 	RegConsoleCmd("votesforcespectate", Command_Votesforcespectate);
 	RegConsoleCmd("votesforcedellobby", Command_Votesforcedellobby);
 	RegConsoleCmd("votesforcestartgame", Command_Votesforcestartgame);
+	// 添加命令
+    RegConsoleCmd("voteshunterpitchlock", Command_VoteHunterPitchLock);
+	// 添加更多选项菜单命令
+    RegConsoleCmd("sm_votes_more", Command_VotesMore, "open more vote options");
+	
 	RegAdminCmd("sm_restartmap", CommandRestartMap, ADMFLAG_CHANGEMAP, "sm_restartmap - changelevels to the current map");
 	RegAdminCmd("sm_rs", CommandRestartMap, ADMFLAG_CHANGEMAP, "sm_restartmap - changelevels to the current map");
 
@@ -140,7 +155,8 @@ public void OnPluginStart()
 	g_hKickImmueAccess	   = CreateConVar("l4d_VotesKick_immue_access_flag", "z", "有这些标识的玩家不会被投票踢出以及强制旁观(无内容=所有人, -1:没有人)", FCVAR_NOTIFY);
 	hforcespectate_penalty = CreateConVar("l4d_forcespectate_penalty", "10", "强制旁观多久才能重新加入队伍", FCVAR_NOTIFY);
 	hvotedelay_time		   = CreateConVar("l4d_votedelay_time", "30", "多长时间才能发起新投票", FCVAR_NOTIFY);
-
+    // 添加Hunter投票ConVar
+    VotensHunterPitchLockED = CreateConVar("l4d_VotesHunterPitchLockED", "1", "如果为1,则开启Hunter俯仰角锁定投票选项", FCVAR_NOTIFY);
 	HookEvent("round_start", event_Round_Start);
 
 	GetCvars();
@@ -159,10 +175,17 @@ public void OnPluginStart()
 	g_hKickImmueAccess.AddChangeHook(ConVarChanged_Cvars);
 	hforcespectate_penalty.AddChangeHook(ConVarChanged_Cvars);
 	hvotedelay_time.AddChangeHook(ConVarChanged_Cvars);
+	VotensHunterPitchLockED.AddChangeHook(ConVarChanged_Cvars);
 
 	AutoExecConfig(true, "l4d_votes_5_VS");
 }
-
+public void OnNativeNotFound(const char[] name)
+{
+    if (StrEqual(name, "IsHunterPitchLockEnabled") || StrEqual(name, "SetHunterPitchLockEnabled"))
+    {
+        g_bHunterPluginLoaded = false;
+    }
+}
 public void ConVarChanged_Cvars(ConVar convar, const char[] oldValue, const char[] newValue)
 {
 	GetCvars();
@@ -185,6 +208,7 @@ void GetCvars()
 	g_hKickImmueAccess.GetString(g_sKickImmueAccesslvl, sizeof(g_sKickImmueAccesslvl));
 	iforcespectate_penalty = hforcespectate_penalty.IntValue;
 	ivotedelay_time		   = hvotedelay_time.IntValue;
+	VotensHunterPitchLockE_D = VotensHunterPitchLockED.BoolValue;
 }
 
 bool g_enb;
@@ -198,7 +222,22 @@ public void OnReadyUpInitiate()
 {
 	g_enb = true;
 }
+public void OnAllPluginsLoaded()
+{
+    g_bHunterPluginLoaded = LibraryExists("hunter_pitch_lock");
+}
 
+public void OnLibraryAdded(const char[] name)
+{
+    if (StrEqual(name, "hunter_pitch_lock"))
+        g_bHunterPluginLoaded = true;
+}
+
+public void OnLibraryRemoved(const char[] name)
+{
+    if (StrEqual(name, "hunter_pitch_lock"))
+        g_bHunterPluginLoaded = false;
+}
 public Action CommandRestartMap(int client, int args)
 {
 	if (!isMapRestartPending)
@@ -327,6 +366,17 @@ public Action Command_Votes(int client, int args)
 		{
 			DrawPanelItem(menu, "调整全体语音");
 		}
+		if (VotensHunterPitchLockE_D == false || !g_bHunterPluginLoaded)
+        {
+            DrawPanelItem(menu, "Hunter简易天花板(禁用中)");
+        }
+        else
+        {
+            bool currentState = IsHunterPitchLockEnabled();
+            char menuText[64];
+            Format(menuText, sizeof(menuText), "%s Hunter简易天花板", currentState ? "关闭" : "开启");
+            DrawPanelItem(menu, menuText);
+        }
 		if (VotensRestartmapE_D == false)
 		{
 			DrawPanelItem(menu, "重置当前地图(禁用中)");
@@ -342,14 +392,6 @@ public Action Command_Votes(int client, int args)
 		else
 		{
 			DrawPanelItem(menu, "投票更换官图");
-		}
-		if (VotensMap2E_D == false)
-		{
-			DrawPanelItem(menu, "投票更换三方图(禁用中)");
-		}
-		else
-		{
-			DrawPanelItem(menu, "投票更换三方图");
 		}
 		if (g_bVotensKickED == false)
 		{
@@ -367,14 +409,6 @@ public Action Command_Votes(int client, int args)
 		{
 			DrawPanelItem(menu, "强制玩家旁观");
 		}
-		if (g_bVotenForceDelLobby == false)
-		{
-			DrawPanelItem(menu, "强制删除游戏大厅(禁用中)");
-		}
-		else
-		{
-			DrawPanelItem(menu, "强制删除游戏大厅");
-		}
 		if (!VotensForceStartGameE_D || !g_enb)
 		{
 			DrawPanelItem(menu, "强制开始游戏(禁用中)");
@@ -383,6 +417,8 @@ public Action Command_Votes(int client, int args)
 		{
 			DrawPanelItem(menu, "强制开始游戏");
 		}
+		DrawPanelItem(menu, "更多选项");
+
 		DrawPanelText(menu, " \n");
 		DrawPanelItem(menu, "退出");
 		SendPanelToClient(menu, client, Votes_Menu, MENU_TIME);
@@ -395,7 +431,50 @@ public Action Command_Votes(int client, int args)
 
 	return Plugin_Stop;
 }
-
+public Action Command_VotesMore(int client, int args)
+{
+    if (client == 0) return Plugin_Handled;
+    
+    ClientVoteMenu[client] = true;
+    if (g_bEnable == true)
+    {
+        closereadyuphud(client);
+        Handle menu = CreatePanel();
+        SetPanelTitle(menu, "更多投票选项");
+        
+        // 1. 投票更换三方图
+        if (VotensMap2E_D == false)
+        {
+            DrawPanelItem(menu, "投票更换三方图(禁用中)");
+        }
+        else
+        {
+            DrawPanelItem(menu, "投票更换三方图");
+        }
+        
+        // 2. 强制删除游戏大厅
+        if (g_bVotenForceDelLobby == false)
+        {
+            DrawPanelItem(menu, "强制删除游戏大厅(禁用中)");
+        }
+        else
+        {
+            DrawPanelItem(menu, "强制删除游戏大厅");
+        }
+        
+        DrawPanelText(menu, " \n");
+        DrawPanelItem(menu, "返回主菜单");
+        DrawPanelItem(menu, "退出");
+        
+        SendPanelToClient(menu, client, VotesMore_Menu, MENU_TIME);
+        return Plugin_Handled;
+    }
+    else
+    {
+        CPrintToChat(client, "[{olive}VOTE{default}]投票菜单插件已关闭!");
+    }
+    return Plugin_Handled;
+}
 public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 {
 	if (action == MenuAction_Select)
@@ -430,7 +509,19 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 					FakeClientCommand(client, "votesalltalk2");
 				}
 			}
-			case 3:
+			case 3: // Hunter简易天花板锁定
+            {
+                if (VotensHunterPitchLockE_D == false || !g_bHunterPluginLoaded)
+                {
+                    FakeClientCommand(client, "sm_votes");
+                    CPrintToChat(client, "[{olive}VOTE{default}]Hunter简易天花板投票已禁用或插件未加载");
+                }
+                else
+                {
+                    FakeClientCommand(client, "voteshunterpitchlock");
+                }
+            }
+			case 4:
 			{
 				if (VotensRestartmapE_D == false)
 				{
@@ -442,7 +533,7 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 					FakeClientCommand(client, "votesrestartmap");
 				}
 			}
-			case 4:
+			case 5:
 			{
 				if (VotensMapE_D == false)
 				{
@@ -452,18 +543,6 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 				else if (VotensMapE_D == true)
 				{
 					FakeClientCommand(client, "votesmapsmenu");
-				}
-			}
-			case 5:
-			{
-				if (VotensMap2E_D == false)
-				{
-					FakeClientCommand(client, "sm_votes");
-					CPrintToChat(client, "[{olive}VOTE{default}]投票更换三方图已禁用");
-				}
-				else if (VotensMap2E_D == true)
-				{
-					FakeClientCommand(client, "votesmaps2menu");
 				}
 			}
 			case 6:
@@ -492,18 +571,6 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 			}
 			case 8:
 			{
-				if (g_bVotenForceDelLobby == false)
-				{
-					FakeClientCommand(client, "sm_votes");
-					CPrintToChat(client, "[{olive}VOTE{default}]强制删除游戏大厅已禁用");
-				}
-				else
-				{
-					FakeClientCommand(client, "votesforcedellobby");
-				}
-			}
-			case 9:
-			{
 				if (VotensForceStartGameE_D == false)
 				{
 					FakeClientCommand(client, "sm_votes");
@@ -514,6 +581,10 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 					FakeClientCommand(client, "votesforcestartgame");
 				}
 			}
+			case 9: // 更多选项
+            {
+                FakeClientCommand(client, "sm_votes_more"); // 创建第二页菜单
+            }
 			case 10:
 			{
 				ClientVoteMenu[client] = false;
@@ -533,7 +604,59 @@ public int Votes_Menu(Menu menu, MenuAction action, int client, int itemNum)
 	}
 	return 0;
 }
-
+public int VotesMore_Menu(Menu menu, MenuAction action, int client, int itemNum)
+{
+    if (action == MenuAction_Select)
+    {
+        switch (itemNum)
+        {
+            case 1: // 投票更换三方图
+            {
+                if (VotensMap2E_D == false)
+                {
+                    FakeClientCommand(client, "sm_votes_more");
+                    CPrintToChat(client, "[{olive}VOTE{default}]投票更换三方图已禁用");
+                }
+                else if (VotensMap2E_D == true)
+                {
+                    FakeClientCommand(client, "votesmaps2menu");
+                }
+            }
+            case 2: // 强制删除游戏大厅
+            {
+                if (g_bVotenForceDelLobby == false)
+                {
+                    FakeClientCommand(client, "sm_votes_more");
+                    CPrintToChat(client, "[{olive}VOTE{default}]强制删除游戏大厅已禁用");
+                }
+                else
+                {
+                    FakeClientCommand(client, "votesforcedellobby");
+                }
+            }
+            case 3: // 返回主菜单
+            {
+                FakeClientCommand(client, "sm_votes");
+            }
+            case 4: // 退出
+            {
+                ClientVoteMenu[client] = false;
+                openreadyuphud(client);
+            }
+        }
+    }
+    else if (action == MenuAction_Cancel)
+    {
+        ClientVoteMenu[client] = false;
+        openreadyuphud(client);
+    }
+    else if (action == MenuAction_End)
+    {
+        openreadyuphud(client);
+        delete menu;
+    }
+    return 0;
+}
 public Action Command_VoteHp(int client, int args)
 {
 	if (g_bEnable == true
@@ -1242,6 +1365,64 @@ public void DisplayVoteforcespectateMenu(int client)
 		return;
 	}
 }
+public Action Command_VoteHunterPitchLock(int client, int args)
+{
+    if (g_bEnable == true && VotensHunterPitchLockE_D == true && g_bHunterPluginLoaded)
+    {
+        if (!TestVoteDelay(client))
+        {
+            return Plugin_Handled;
+        }
+        if (CanStartVotes(client))
+        {
+            bool currentState = IsHunterPitchLockEnabled();
+            char voteText[64];
+            Format(voteText, sizeof(voteText), "%s Hunter简易天花板", currentState ? "关闭" : "开启");
+            
+            CPrintToChatAll("[{olive}VOTE{default}]{olive} %N {default}发起了一个投票: {blue}%s{default}, 只有游戏中的玩家才能参与投票", client, voteText);
+            
+            for (int i = 1; i <= MaxClients; i++)
+            {
+                if (IsClientConnected(i) && IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != 1)
+                {
+                    closereadyuphud(i);
+                    ClientVoteMenu[i] = true;
+                }
+            }
+
+            g_voteType = view_as<voteType>(hunterpitchlock);
+            char SteamId[35];
+            GetClientAuthId(client, AuthId_Steam2, SteamId, sizeof(SteamId));
+            LogMessage("%N(%s) 发起了一个投票: %s!", client, SteamId, voteText);
+            
+            g_hVoteMenu = CreateMenu(Handler_VoteCallback, MENU_ACTIONS_ALL);
+            SetMenuTitle(g_hVoteMenu, "是否%s?", voteText);
+            AddMenuItem(g_hVoteMenu, VOTE_YES, "同意");
+            AddMenuItem(g_hVoteMenu, VOTE_NO, "不同意");
+
+            SetMenuExitButton(g_hVoteMenu, false);
+            DisplayVoteMenuToNotSpec(g_hVoteMenu, 20);
+
+            for (int i = 1; i <= MaxClients; i++)
+            {
+                if (IsClientConnected(i) && IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != 1)
+                {
+                    EmitSoundToClient(i, "ui/beep_synthtone01.wav");
+                }
+            }
+        }
+        else
+        {
+            return Plugin_Handled;
+        }
+        return Plugin_Handled;
+    }
+    else
+    {
+        CPrintToChat(client, "[{olive}VOTE{default}]Hunter简易天花板投票被禁止或插件未加载");
+    }
+    return Plugin_Handled;
+}
 
 stock bool DisplayVoteMenuToTeam(Handle hMenu, int iTime, int iTeam)
 {
@@ -1662,6 +1843,20 @@ public Action COLD_DOWN(Handle timer, any client)
 			}
 			else {
 				CPrintToChatAll("[{olive}VOTE{default}]对局已开始!无需强制启动游戏!");
+			}
+		}
+		case (view_as<voteType>(hunterpitchlock)):
+		{
+			if (g_bHunterPluginLoaded)
+			{
+				bool currentState = IsHunterPitchLockEnabled();
+				SetHunterPitchLockEnabled(!currentState);
+				CPrintToChatAll("[{olive}VOTE{yellow}]Hunter简易天花板已%s", !currentState ? "开启" : "关闭");
+				LogMessage("Hunter简易天花板投票通过: %s", !currentState ? "开启" : "关闭");
+			}
+			else
+			{
+				CPrintToChatAll("[{olive}VOTE{default}]Hunter插件未加载，无法执行操作");
 			}
 		}
 	}
